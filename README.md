@@ -6,6 +6,6 @@ Here are the List of projects
 
 * Deep Dreaming on Videos
   
-  This project was about the audio visual project "Sorrow" [Link to music video](https://youtu.be/wp0vFaG68TI)
+  This project was about the audio visual project "Sorrow" [Link to music video](https://youtu.be/4vzPDCuocqM)
   
   The visual element was created by taking samples of fixed frames of a traveling window (Window of a bus/train/plane). And performing deep dreaming on each frame of the video.
