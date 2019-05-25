@@ -15,3 +15,5 @@ digital audio work station (like Ableton).
 
 The melodies are visualized as leaves of Trees growing upwards while the negative version forms the roots of the tree. (Jacob Collier's analogy)
 This visualization is done using p5.js
+
+Thank you Siddharth (sid0710) for ideating with me.
