@@ -2,7 +2,7 @@ class nodes{
   constructor(x, y, quality, size){
     this.x = x;
     this.y = y;
-    //this.faded = 1;
+    this.faded = 256;
     this.size = size;
     this.quality = quality
     if(this.quality == 1){
@@ -15,6 +15,7 @@ class nodes{
 
   draw(){
 
+    this.color.setAlpha(this.faded);
     fill(this.color);
     noStroke();
     ellipse(this.x, this.y, this.size, this.size);
