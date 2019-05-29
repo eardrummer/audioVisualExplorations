@@ -4,6 +4,8 @@ var doodles = {};
 let video;
 let poseNet;
 
+let video2;
+
 var eye, eye2, nose, mouth;
 
 let startDoodling = false;
@@ -39,6 +41,9 @@ function setup() {
 	video = createCapture(VIDEO);
 	video.size(width, height);
 	video.hide();
+
+	video2 = createCapture(VIDEO);
+	video2.hide();
 	//console.log(ml5);
 
 	poseNet = ml5.poseNet(video, modelLoaded);
@@ -48,8 +53,8 @@ function setup() {
 function draw() {
 
 
-		background(255);
-		//image(video, 0, 0, width, height)
+		background(0);
+		image(video2, 0, 0, width/3, height/3);
 		//filter(THRESHOLD);
 
 		//console.log("printing")

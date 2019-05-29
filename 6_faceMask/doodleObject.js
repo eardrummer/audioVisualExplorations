@@ -23,7 +23,7 @@ class doodleObject{
     }
 
     noFill(0);
-    stroke(0);
+    stroke(200);
     strokeWeight(3);
 
     beginShape();
